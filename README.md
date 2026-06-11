@@ -5,6 +5,7 @@ A mobile-first workshop companion built around one QR code. Attendees can answer
 ## Views
 
 - `/` attendee flow
+- `/?view=organizer` organizer hub with links to all protected views
 - `/?view=projector` live poll and QR code
 - `/?view=moderator` anonymous questions and workshop metrics
 - `/?view=leader` group-specific follow-up

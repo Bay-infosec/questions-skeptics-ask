@@ -1,3 +1,4 @@
+import { ArrowLeft } from "lucide-react";
 import { useState } from "react";
 import Brand from "./Brand";
 
@@ -6,7 +7,12 @@ export default function AccessGate({ label, onSubmit, error, loading }) {
 
   return (
     <main className="gate shell">
-      <Brand />
+      <div className="gate__top">
+        <Brand />
+        <a className="back-link" href="?view=organizer">
+          <ArrowLeft size={16} /> Organizer access
+        </a>
+      </div>
       <section className="panel gate__panel">
         <p className="eyebrow">Private access</p>
         <h1>{label}</h1>

@@ -163,6 +163,9 @@ export default function AttendeeApp() {
             <button className="button button--large" onClick={() => setStep(1)}>
               Start poll <ArrowRight size={19} />
             </button>
+            <a className="organizer-link" href="?view=organizer">
+              Workshop team access <ArrowRight size={15} />
+            </a>
           </div>
         ) : null}
 
