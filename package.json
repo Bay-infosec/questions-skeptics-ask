@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "generate:qr": "node scripts/generate-qr-kit.mjs",
     "test": "vitest run",
     "preview": "vite preview"
   },

@@ -9,6 +9,21 @@ A mobile-first workshop companion built around one QR code. Attendees can answer
 - `/?view=moderator` anonymous questions and workshop metrics
 - `/?view=leader` group-specific follow-up
 
+## Participant QR kit
+
+Ready-to-share assets are generated in `public/qr-kit/`:
+
+- `participant-poster.pdf` - US Letter print poster
+- `participant-poster.png` - shareable poster image
+- `participant-qr.png` - high-resolution raster QR
+- `participant-qr.svg` - scalable QR for print/design tools
+
+Regenerate them after changing the participant URL:
+
+```bash
+npm run generate:qr
+```
+
 ## Local setup
 
 ```bash
